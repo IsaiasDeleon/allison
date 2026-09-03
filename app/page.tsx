@@ -575,14 +575,14 @@ export default function Home() {
             <Shirt aria-hidden="true" />
             <p className="card-kicker">Código de vestimenta</p>
             <h2>{EVENT_CONFIG.dressCode.titulo}</h2>
-            <p>{EVENT_CONFIG.dressCode.detalle}</p>
+           
             {EVENT_CONFIG.dressCode.reservarVerde && <small>Con mucho cariño, te pedimos reservar el color verde para nuestra quinceañera.</small>}
           </article>
           <article className="detail-panel" data-reveal>
             <Gift aria-hidden="true" />
             <p className="card-kicker">Mesa de regalos</p>
             <h2>Tu presencia es mi mejor regalo</h2>
-            <p>{EVENT_CONFIG.regalos.activo ? 'Si deseas tener un detalle conmigo…' : 'Información pendiente por confirmar.'}</p>
+            
           </article>
         </div>
       </section>
