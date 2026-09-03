@@ -43,7 +43,7 @@ export const EVENT_CONFIG = {
     direccion:
       'Carr. Rioverde km 246, 78438 Soledad de Graciano Sánchez, S.L.P.',
     maps:
-      'https://www.google.com/maps/search/?api=1&query=Salon+de+Eventos+Elegance+San+Luis+Potosi',
+      'https://maps.app.goo.gl/nXBusof5FuBFnWRt6',
   },
 
   whatsapp: {
