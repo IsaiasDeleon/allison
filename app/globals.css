@@ -32,6 +32,9 @@
 }
 
 :root {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Montserrat', Arial, sans-serif;
+  --font-script: 'Allura', cursive;
   --background: #f7f2e8;
   --foreground: #111a15;
   --card: #efe7d6;
@@ -136,7 +139,7 @@ code { font-size: .86em; }
 .intro-section { background: linear-gradient(150deg, #173d30 0%, #1e4a38 60%, #183c2f 100%); color: #f7f2e8; }
 .intro-grid { display: grid; gap: clamp(2.2rem, 6vw, 6.5rem); align-items: center; }
 .portrait-placeholder { position: relative; min-width: 0; }
-.portrait-image { width: 100%; min-height: 440px; aspect-ratio: 4 / 5; background: linear-gradient(180deg, rgb(18 56 45 / 6%), rgb(8 25 19 / 35%)), url('/assets/images/night-garden.webp') center / cover; box-shadow: 0 30px 60px rgb(2 12 8 / 26%); }
+.portrait-image { width: 100%; min-height: 440px; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; box-shadow: 0 30px 60px rgb(2 12 8 / 26%); }
 .portrait-placeholder::before { content: ''; position: absolute; inset: -12px 12px 12px -12px; z-index: -1; border: 1px solid rgb(214 188 124 / 44%); }
 .portrait-placeholder > span { position: absolute; right: .8rem; bottom: .8rem; padding: .55rem .7rem; background: rgb(7 18 13 / 76%); color: #f7f2e8; font-size: .625rem; letter-spacing: .08em; text-transform: uppercase; backdrop-filter: blur(8px); }
 .script-accent { margin: 0 0 -.35rem; color: #d6bc7c; font-family: var(--font-script), cursive; font-size: clamp(2.7rem, 7vw, 5rem); line-height: 1; }

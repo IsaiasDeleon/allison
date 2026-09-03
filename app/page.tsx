@@ -415,7 +415,13 @@ export default function Home() {
       <section id="presentacion" className="intro-section section-pad">
         <div className="intro-grid content-width">
           <div className="portrait-placeholder" data-reveal>
-            <div className="portrait-image" role="img" aria-label={`Espacio reservado para una fotografía de ${SHORT_NAME}`} />
+            <img
+              className="portrait-image"
+              src={EVENT_CONFIG.imagenes.presentacion}
+              alt={`Espacio reservado para una fotografía de ${SHORT_NAME}`}
+              width="800"
+              height="1000"
+            />
             <span>[PENDIENTE] · Fotografía de {SHORT_NAME}</span>
           </div>
           <div className="intro-copy" data-reveal>
@@ -602,7 +608,7 @@ export default function Home() {
       </section>
 
       <section className="final-section">
-        <img src="/assets/images/night-garden.webp" alt={`Jardín nocturno con nenúfares, destellos dorados y el texto Mis XV ${SHORT_NAME}`} width="1600" height="840" loading="lazy" />
+        <img src={EVENT_CONFIG.imagenes.final} alt={`Jardín nocturno con nenúfares, destellos dorados y el texto Mis XV ${SHORT_NAME}`} width="1600" height="840" loading="lazy" />
         <div className="final-copy" data-reveal>
           <p>Nos vemos muy pronto</p>
           <span>{EVENT_CONFIG.evento.fecha || PENDIENTE}</span>
