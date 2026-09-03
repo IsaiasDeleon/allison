@@ -185,17 +185,22 @@ function MusicPlayer({ audioRef }: { audioRef: React.RefObject<HTMLAudioElement 
 
   return (
     <>
-      <audio
-        ref={audioRef}
-        src={EVENT_CONFIG.musica.archivo}
-        preload="metadata"
-        onPlay={() => setPlaying(true)}
-        onPause={() => setPlaying(false)}
-        onEnded={() => setPlaying(false)}
-        onLoadedMetadata={(event) => setDuration(event.currentTarget.duration || 0)}
-        onTimeUpdate={(event) => setCurrentTime(event.currentTarget.currentTime)}
-        onError={() => setHasError(true)}
-      />
+     <audio
+  ref={audioRef}
+  src={EVENT_CONFIG.musica.archivo}
+  preload="metadata"
+  loop
+  onPlay={() => setPlaying(true)}
+  onPause={() => setPlaying(false)}
+  onEnded={() => setPlaying(false)}
+  onLoadedMetadata={(event) =>
+    setDuration(event.currentTarget.duration || 0)
+  }
+  onTimeUpdate={(event) =>
+    setCurrentTime(event.currentTarget.currentTime)
+  }
+  onError={() => setHasError(true)}
+/>
 
       <div className="music-card" data-reveal>
         <div className={`record-art${playing ? ' is-playing' : ''}`} aria-hidden="true">
