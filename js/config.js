@@ -54,7 +54,7 @@ export const EVENT_CONFIG = {
   },
 
   musica: {
-    archivo: asset('assets/audio/cancion.mp3'),
+    archivo: asset('assets/audio/NuestraCancion.mp3'),
   },
 
   imagenes: {
