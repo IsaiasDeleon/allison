@@ -501,7 +501,7 @@ export default function Home() {
       <section className="gallery-section section-pad">
         <div className="content-width">
           <SectionHeading kicker="Instantes de una historia" title={`Galería de ${SHORT_NAME}`} />
-          <p className="gallery-note" data-reveal>Estas imágenes ambientan el diseño. Sustituye cada archivo por la fotografía indicada.</p>
+   
           <div className="masonry-gallery">
             {gallery.map((image, index) => (
               <button
@@ -558,7 +558,7 @@ export default function Home() {
       <section className="timeline-section section-pad">
         <div className="content-width">
           <SectionHeading kicker="El ritmo de nuestra noche" title="Itinerario" />
-          <p className="provisional-pill">Horario provisional</p>
+          <p className="provisional-pill">Horario</p>
           <ol className="timeline">
             {EVENT_CONFIG.itinerario.map((item, index) => (
               <li key={`${item.hora}-${item.titulo}`} data-reveal style={{ '--item-index': index } as React.CSSProperties}>
@@ -608,7 +608,7 @@ export default function Home() {
           ) : (
             <span className="whatsapp-link is-disabled" aria-disabled="true">WhatsApp pendiente</span>
           )}
-          <small>El mensaje queda preparado para añadir tu nombre y confirmar invitados.</small>
+        
         </div>
       </section>
 
