@@ -33,7 +33,7 @@ import {
 import { Slider } from '@/components/ui/slider';
 import { EVENT_CONFIG, PENDIENTE } from '@/js/config';
 
-const FIREFLIES = Array.from({ length: 16 }, (_, index) => index);
+const FIREFLIES = Array.from({ length: 27 }, (_, index) => index);
 const SHORT_NAME = EVENT_CONFIG.quinceanera.nombre;
 const FULL_NAME = EVENT_CONFIG.quinceanera.nombreCompleto;
 const DISPLAY_SURNAME = FULL_NAME.startsWith(`${SHORT_NAME} `)
