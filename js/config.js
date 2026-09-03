@@ -20,7 +20,7 @@ export const EVENT_CONFIG = {
 
   padres: {
     mama: 'Ma. Catalina Salazar Ventura',
-    papa: 'José Guadalupe',
+    papa: 'José Guadalupe Torres',
   },
 
   padrinos: {
@@ -34,7 +34,7 @@ export const EVENT_CONFIG = {
     direccion:
       'José María Morelos y Pavón 620, Centro Histórico, 78000 San Luis Potosí, S.L.P.',
     maps:
-      'https://www.google.com/maps/place/Catedral+Metropolitana+de+San+Luis+Potos%C3%AD/@22.1516705,-100.9781821,17z/data=!4m6!3m5!1s0x868753759939daa7:0x14165e60cc2aa14e!8m2!3d22.1516705!4d-100.9756072',
+      'https://maps.app.goo.gl/wDFE1D1vcnZvUQra8',
   },
 
   recepcion: {
