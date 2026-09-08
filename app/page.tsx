@@ -581,7 +581,7 @@ export default function Home() {
           <article className="detail-panel" data-reveal>
             <Gift aria-hidden="true" />
             <p className="card-kicker">Mesa de regalos</p>
-            <h2>Tu presencia es mi mejor regalo</h2>
+            <h2>Tu presencia es mi mejor regalo, pero si gustas habrá una lluvia de sobres</h2>
             
           </article>
         </div>
