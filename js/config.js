@@ -48,7 +48,7 @@ export const EVENT_CONFIG = {
 
   whatsapp: {
     // Incluye el código de México 52
-    numero: '524442389214',
+    numero: '524444161135',
     mensaje:
       'Hola, confirmo mi asistencia a los XV años de Allison Itzel Torres Salazar. Mi nombre es: ',
   },
