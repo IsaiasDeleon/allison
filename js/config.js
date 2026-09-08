@@ -14,7 +14,7 @@ export const EVENT_CONFIG = {
     // Hora en formato de 24 horas
     hora: '17:00',
 
-    fechaConfirmacion: '15 de noviembre de 2026',
+    fechaConfirmacion: '1 de noviembre de 2026',
     zonaHoraria: 'America/Mexico_City',
   },
 
