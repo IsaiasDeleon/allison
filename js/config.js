@@ -20,17 +20,17 @@ export const EVENT_CONFIG = {
 
   padres: {
     mama: 'Ma. Catalina Salazar Ventura',
-    papa: 'José Guadalupe Torres',
+    papa: 'José Guadalupe Torres Grimaldo',
   },
 
   padrinos: {
     activo: true,
-    nombres: ['Fortina Ventura'],
+    nombres: ['Fortina Ventura Grimaldo', 'José Yahir Torres Salazar'],
   },
 
   ceremonia: {
     nombre: 'Catedral Metropolitana de San Luis Potosí',
-    hora: '17:00',
+    hora: '18:00',
     direccion:
       'José María Morelos y Pavón 620, Centro Histórico, 78000 San Luis Potosí, S.L.P.',
     maps:
@@ -39,7 +39,7 @@ export const EVENT_CONFIG = {
 
   recepcion: {
     nombre: 'Salón de Eventos Elegance',
-    hora: '19:00',
+    hora: '19:40',
     direccion:
       'Carr. Rioverde km 246, 78438 Soledad de Graciano Sánchez, S.L.P.',
     maps:
