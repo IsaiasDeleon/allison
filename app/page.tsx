@@ -423,7 +423,7 @@ export default function Home() {
             <img
               className="portrait-image"
               src={EVENT_CONFIG.imagenes.presentacion}
-              alt={`Espacio reservado para una fotografía de ${SHORT_NAME}`}
+              
               width="800"
               height="1000"
             />
@@ -513,7 +513,7 @@ export default function Home() {
                 aria-label={`Abrir ${image.alt}`}
               >
                 <img src={image.src} alt={image.alt} loading="lazy" width={image.width} height={image.height} />
-                {image.placeholder && <span>[PENDIENTE] · foto{pad(index + 1)}.webp</span>}
+                {image.placeholder}
               </button>
             ))}
           </div>
