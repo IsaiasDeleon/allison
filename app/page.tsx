@@ -427,7 +427,7 @@ export default function Home() {
               width="800"
               height="1000"
             />
-            <span>[PENDIENTE] · Fotografía de {SHORT_NAME}</span>
+           
           </div>
           <div className="intro-copy" data-reveal>
             <p className="script-accent">Hay momentos…</p>
