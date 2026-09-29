@@ -106,42 +106,42 @@ export const EVENT_CONFIG = {
 
   galeria: [
     {
-      src: asset('assets/gallery/A7.jpeg'),
+      src: asset('assets/gallery/A2.jpeg'),
       alt: 'Fotografía 01 de Allison',
       width: 700,
       height: 909,
       placeholder: true,
     },
     {
-      src: asset('assets/gallery/A2.jpeg'),
+      src: asset('assets/gallery/A3.jpeg'),
       alt: 'Fotografía 02 de Allison',
       width: 700,
       height: 909,
       placeholder: true,
     },
     {
-      src: asset('assets/gallery/A3.jpeg'),
+      src: asset('assets/gallery/A4.jpeg'),
       alt: 'Fotografía 03 de Allison',
       width: 700,
       height: 909,
       placeholder: true,
     },
     {
-      src: asset('assets/gallery/A4.jpeg'),
+      src: asset('assets/gallery/A5.jpeg'),
       alt: 'Fotografía 04 de Allison',
       width: 1200,
       height: 760,
       placeholder: true,
     },
     {
-      src: asset('assets/gallery/A5.jpeg'),
+      src: asset('assets/gallery/A6.jpeg'),
       alt: 'Fotografía 05 de Allison',
       width: 900,
       height: 909,
       placeholder: true,
     },
     {
-      src: asset('assets/gallery/A6.jpeg'),
+      src: asset('assets/gallery/A7.jpeg'),
       alt: 'Fotografía 06 de Allison',
       width: 1200,
       height: 700,
