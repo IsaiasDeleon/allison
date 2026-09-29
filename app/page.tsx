@@ -536,7 +536,7 @@ export default function Home() {
               }}
             >
               <img src={selectedImage.src} alt={selectedImage.alt} width={selectedImage.width} height={selectedImage.height} />
-              <p>{selectedImage.placeholder ? `Sustituir foto${pad(currentImage + 1)}.webp` : selectedImage.alt}</p>
+             
             </div>
           )}
           <Button className="lightbox-nav is-prev" size="icon-lg" onClick={previousImage} aria-label="Imagen anterior"><ChevronLeft /></Button>
