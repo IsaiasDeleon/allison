@@ -58,7 +58,7 @@ export const EVENT_CONFIG = {
   },
 
   imagenes: {
-    presentacion: asset('assets/images/night-garden.webp'),
+    presentacion: asset('assets/gallery/A1.jpeg'),
     final: asset('assets/images/night-garden.webp'),
   },
 
