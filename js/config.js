@@ -106,7 +106,7 @@ export const EVENT_CONFIG = {
 
   galeria: [
     {
-      src: asset('assets/gallery/A1.jpeg'),
+      src: asset('assets/gallery/A7.jpeg'),
       alt: 'Fotografía 01 de Allison',
       width: 700,
       height: 909,
