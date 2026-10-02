@@ -75,15 +75,11 @@ export const EVENT_CONFIG = {
 
   itinerario: [
     {
-      hora: '17:00',
+      hora: '18:00',
       titulo: 'Ceremonia',
     },
     {
-      hora: '18:30',
-      titulo: 'Sesión de fotos / traslado',
-    },
-    {
-      hora: '19:00',
+      hora: '19:45',
       titulo: 'Recepción',
     },
     {
@@ -91,17 +87,9 @@ export const EVENT_CONFIG = {
       titulo: 'Entrada de la quinceañera',
     },
     {
-      hora: '20:15',
-      titulo: 'Vals',
-    },
-    {
       hora: '20:30',
       titulo: 'Cena',
-    },
-    {
-      hora: '22:00',
-      titulo: 'Fiesta',
-    },
+    }
   ],
 
   galeria: [
